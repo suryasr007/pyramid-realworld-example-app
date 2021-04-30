@@ -49,6 +49,7 @@ def configure(config: Configurator) -> None:
     config.include(".comment")
     config.include(".tag")
     config.include(".profile")
+    config.include(".heroku")
 
     # Serve frontend on root to be able to play around
     config.include(".frontend")
